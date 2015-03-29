@@ -93,7 +93,7 @@ public class DiceThrowerView {
 	 * Initialize the contents of the frame.
 	 */
 	private synchronized void initialize() {		
-		frame = new JFrame();
+		frame = new JFrame("Dice Thrower Prototype");
 		frame.getContentPane().addComponentListener(new ComponentAdapter() {
 			@Override
 			public void componentResized(ComponentEvent arg0) {
