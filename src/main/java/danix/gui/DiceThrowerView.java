@@ -137,11 +137,7 @@ public class DiceThrowerView {
 		
 		DiceResultView diceResult = new DiceResultView(model);
 		//diceResult.setText("Result:");
-		
-		model.addObserver(dicePanel);
-		model.addObserver(diceResult);
-		
-		
+
 		GroupLayout gl_panel = new GroupLayout(panel);
 		gl_panel.setHorizontalGroup(
 			gl_panel.createParallelGroup(Alignment.LEADING)
